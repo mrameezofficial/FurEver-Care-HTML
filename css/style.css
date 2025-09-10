@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+
+}
+
+.section {
+    height: 500px;
+    background-image: url("images/KONG-Website-Hero-19.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 115px 0px;
+}
+
+div {
+    padding: 0px 15px;
+    margin: 5px 0px;
+}
+
+nav ol li {
+    padding: 0px 15px;
+    margin: 5px 0px;
+    list-style: none;
+}
+
+.breadcrumps-item-active {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+li {
+        display: list-item;
+}
+
+/* .breadcrumb-content .breadcrumb li a {
+ 
+   font-weight: 700;
+    font-size: 16px;
+} */
+.breadcrumb-content .breadcrumb-item {
+    text-transform: capitalize;
+   color: #f04336;
+    font-weight: 700;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
